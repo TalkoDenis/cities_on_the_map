@@ -44,7 +44,7 @@ def main():
 
     # Получаем список городов от пользователя
     user_input = input("Enter city names (comma or space-separated): ").strip()
-    cities = [city.strip() for city in user_input.replace(',', ' ').split()]
+    cities = [city.strip() for city in user_input.replace(',').split()]
 
     if not cities:
         print("The list of cities is empty!")
