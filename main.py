@@ -38,7 +38,7 @@ def main():
     marker_cluster = MarkerCluster().add_to(map)
     geolocator = Nominatim(user_agent="city_locator")
     city_names = input("Enter city names (comma or space-separated): ").strip()
-    cities = [city.strip() for city in city_names.replace(',').split()]
+    cities = [city.strip() for city in city_names.replace(',', ' ').split()]
 
     if not cities:
         print("The list of cities is empty!")
