@@ -19,7 +19,9 @@ The map is created using Python and the [Folium](https://python-visualization.gi
 
 ## Installation
 
-1. Clone this repository:
+Clone this repository:
    ```bash
    git clone https://github.com/TalkoDenis/cities_on_the_map.git
+
+   
    cd cities_on_the_map
